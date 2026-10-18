@@ -165,7 +165,7 @@ python prepare/split.py --data data --keep-src
 
 # jalankan 3 eksperimen + evaluasi test, tulis hasil ke hasil_praktik_klasifikasi/
 python YOLO/YOLO/06_latih_bandingkan_klasifikasi.py \
-  --nim 4222401016 --nama "Prhayogo" \
+  --nim 4222401013 --nama "Shinta Dwiyani" \
   --model yolo26n-cls --epochs 20 --imgsz 224 --batch 32 --device cpu
 ```
 
