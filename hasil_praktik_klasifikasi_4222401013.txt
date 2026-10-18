@@ -1,7 +1,7 @@
 ==============================================================================
   PRAKTIK TERPADU MINGGU 4-7 - KLASIFIKASI
 ==============================================================================
-  NIM / Nama    : 4222401016 / Prhayogo
+  NIM / Nama    : 4222401013 / Shinta
   Waktu         : 16-10-2026 18:41:59
   Komputer/user : prhayogo-ASUS-TUF-Gaming-A15-FA506NFR-FA506NFR / prhayogo
   Dataset       : /home/prhayogo/Documents/transfer_learning/data

@@ -147,7 +147,7 @@ E1 pretrained, E2 scratch, E3 tuning `imgsz=288`. Ketiganya diuji di data
 
 Rincian val (untuk memilih model, bukan hasil test): E1 val_loss 0.0001,
 E2 0.0017, E3 0.0002 — semua top1 mentok, jadi yang dipilih dari `val_loss`
-terkecil, yaitu E1. Angka lengkap: `hasil_praktik_klasifikasi_4222401016.txt`
+terkecil, yaitu E1. Angka lengkap: `hasil_praktik_klasifikasi_4222401013.txt`
 dan `.csv`; grafik, confusion matrix, dan bobot `best.pt` tiap eksperimen ada di
 [`hasil_praktik_klasifikasi/`](hasil_praktik_klasifikasi/).
 
@@ -187,7 +187,7 @@ Opsi: `--device 0` untuk GPU, `--device cpu` untuk CPU (default otomatis),
 - Split per blok waktu membuat `val` dan `test` berisi frame dari segmen video
   yang berbeda, jadi angkanya lebih jujur daripada split acak.
 - `--amp` hanya speeding di CUDA; di CPU tidak berpengaruh.
-- `history_*.json` berisi akurasi per epoch untuk melihat overfitting;
+- `history_*.json` berisi akurasi data per epoch untuk melihat overfitting;
   `curves_*.png` / `compare_*.png` dibuat otomatis setiap training selesai.
 
 ## Tips
